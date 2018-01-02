@@ -7,18 +7,18 @@ This was needed to apply some machine learning on websites with python scripts f
 Pull it
 
 ```
-$ docker pull ttsg-mk/ml-on-websites
+$ docker pull ttsgmk/ml-on-websites
 ```
 
 Or build it
 
 ```
-$ docker build -t ttsg-mk/ml-for-websites .
+$ docker build -t ttsgmk/ml-for-websites .
 ```
 
 Use it with a local root folder in which your script(s) are placed.
 
 ```
-$ docker run -v $PWD/root/:/root -it ttsg-mk/ml-on-websites python /root/your_python_script.py 
+$ docker run -v $PWD/root/:/root -it ttsgmk/ml-on-websites python /root/your_python_script.py 
 ```
 
